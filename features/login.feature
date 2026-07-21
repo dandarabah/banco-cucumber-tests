@@ -23,8 +23,4 @@ Feature: Login
     Examples:
         |usuario      |senha   |
         |cloe.ferreira|812345  |
-<<<<<<< HEAD
         |sara.silva   |234513  |
-=======
-        
->>>>>>> transferencias

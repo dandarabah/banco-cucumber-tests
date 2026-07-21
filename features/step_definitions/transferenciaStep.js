@@ -69,4 +69,32 @@ Then('a transferência deve ser realizada com sucesso', async function () {
 
     assert.strictEqual(encontrado, true);
 });
-       
+
+Then('devo visualizar a mensagem {string}', async function (mensagemEsperada) {
+    const toast = await driver.wait(until.elementLocated(By.css('#toast-container .toast.red')), 30000);
+    const texto = await toast.getText();
+    assert.strictEqual(texto.trim(), mensagemEsperada);
+});
+
+Then('a transferência não deve ser realizada', async function () {
+    const start = Date.now();
+    let encontrado = false;
+    let mensagem = '';
+
+    while (Date.now() - start < 30000) {
+        try {
+            const toast = await driver.findElement(By.css('#toast-container .toast.red'));
+            mensagem = await toast.getText();
+            if (mensagem && mensagem.trim().length > 0) {
+                encontrado = true;
+                break;
+            }
+        } catch (error) {
+            // continua aguardando
+        }
+
+        await driver.sleep(1000);
+    }
+
+    assert.strictEqual(encontrado, true, 'Aviso de erro não apareceu');
+});
