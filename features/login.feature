@@ -1,3 +1,4 @@
+@login
 Feature: Login
 
     Scenario Outline: Login com sucesso
@@ -22,4 +23,8 @@ Feature: Login
     Examples:
         |usuario      |senha   |
         |cloe.ferreira|812345  |
+<<<<<<< HEAD
         |sara.silva   |234513  |
+=======
+        
+>>>>>>> transferencias
