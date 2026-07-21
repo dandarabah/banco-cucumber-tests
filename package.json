@@ -3,30 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-<<<<<<< HEAD
- "scripts": {
-  "test": "cucumber-js",
-  "test:json": "cucumber-js --format json:reports/cucumber-report.json",
-  "test:report": "npm run test:json && node report.js"
-},
-=======
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cucumber-js",
     "test:json": "cucumber-js --require features/step_definitions/**/*.js --format json:reports/cucumber-report.json",
     "report": "node report.js",
     "test:report": "npm run test:json && npm run report"
   },
->>>>>>> transferencias
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^11.0.1",
-<<<<<<< HEAD
     "multiple-cucumber-html-reporter": "^3.9.0",
-=======
-    "multiple-cucumber-html-reporter": "^3.8.0",
->>>>>>> transferencias
     "selenium-webdriver": "^4.46.0"
   }
 }

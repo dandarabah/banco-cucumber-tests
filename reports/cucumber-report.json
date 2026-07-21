@@ -6,11 +6,7 @@
         "description": "",
         "id": "login;login-com-sucesso",
         "keyword": "Scenario Outline",
-<<<<<<< HEAD
-        "line": 11,
-=======
         "line": 12,
->>>>>>> transferencias
         "name": "Login com sucesso",
         "steps": [
           {
@@ -18,10 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 1240647399
-=======
-              "duration": 1797867100
+              "duration": 1729537799
             }
           },
           {
@@ -29,23 +22,12 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2788599
->>>>>>> transferencias
+              "duration": 552099
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-<<<<<<< HEAD
-            "line": 4,
-            "name": "que esteja na página de login",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 941430700
-=======
             "line": 5,
             "name": "que esteja na página de login",
             "match": {
@@ -53,8 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 630203699
->>>>>>> transferencias
+              "duration": 605509199
             }
           },
           {
@@ -77,16 +58,6 @@
               }
             ],
             "keyword": "When ",
-<<<<<<< HEAD
-            "line": 5,
-            "name": "realizo o login com as seguintes credenciais",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 630894299
-=======
             "line": 6,
             "name": "realizo o login com as seguintes credenciais",
             "match": {
@@ -94,29 +65,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 746620399
->>>>>>> transferencias
+              "duration": 715213199
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-<<<<<<< HEAD
-            "line": 8,
-=======
             "line": 9,
->>>>>>> transferencias
             "name": "devo ser redirecionado para a página inicial",
             "match": {
-              "location": "features\\step_definitions\\loginStep.js:32"
+              "location": "features\\step_definitions\\loginStep.js:31"
             },
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 3166344799
-=======
-              "duration": 157474100
->>>>>>> transferencias
+              "duration": 162588700
             }
           },
           {
@@ -124,14 +86,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 648738899
-            }
-          }
-        ],
-        "tags": [],
-=======
-              "duration": 904659299
+              "duration": 794713399
             }
           },
           {
@@ -139,7 +94,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 626500
+              "duration": 553300
             }
           }
         ],
@@ -149,18 +104,13 @@
             "line": 1
           }
         ],
->>>>>>> transferencias
         "type": "scenario"
       },
       {
         "description": "",
         "id": "login;login-com-sucesso",
         "keyword": "Scenario Outline",
-<<<<<<< HEAD
-        "line": 12,
-=======
         "line": 13,
->>>>>>> transferencias
         "name": "Login com sucesso",
         "steps": [
           {
@@ -168,10 +118,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 1953699200
-=======
-              "duration": 1802033500
+              "duration": 1687808699
             }
           },
           {
@@ -179,23 +126,12 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1114200
->>>>>>> transferencias
+              "duration": 506300
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-<<<<<<< HEAD
-            "line": 4,
-            "name": "que esteja na página de login",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 746680900
-=======
             "line": 5,
             "name": "que esteja na página de login",
             "match": {
@@ -203,8 +139,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 615802000
->>>>>>> transferencias
+              "duration": 1656219599
             }
           },
           {
@@ -227,16 +162,6 @@
               }
             ],
             "keyword": "When ",
-<<<<<<< HEAD
-            "line": 5,
-            "name": "realizo o login com as seguintes credenciais",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 618628299
-=======
             "line": 6,
             "name": "realizo o login com as seguintes credenciais",
             "match": {
@@ -244,29 +169,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 715984700
->>>>>>> transferencias
+              "duration": 671159400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-<<<<<<< HEAD
-            "line": 8,
-=======
             "line": 9,
->>>>>>> transferencias
             "name": "devo ser redirecionado para a página inicial",
             "match": {
-              "location": "features\\step_definitions\\loginStep.js:32"
+              "location": "features\\step_definitions\\loginStep.js:31"
             },
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 3161220899
-=======
-              "duration": 204422700
->>>>>>> transferencias
+              "duration": 162474500
             }
           },
           {
@@ -274,14 +190,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 474445700
-            }
-          }
-        ],
-        "tags": [],
-=======
-              "duration": 356614699
+              "duration": 343467900
             }
           },
           {
@@ -289,7 +198,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 289599
+              "duration": 622999
             }
           }
         ],
@@ -299,18 +208,13 @@
             "line": 1
           }
         ],
->>>>>>> transferencias
         "type": "scenario"
       },
       {
         "description": "",
         "id": "login;login-invalido",
         "keyword": "Scenario Outline",
-<<<<<<< HEAD
-        "line": 24,
-=======
         "line": 25,
->>>>>>> transferencias
         "name": "Login invalido",
         "steps": [
           {
@@ -318,10 +222,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 1295247600
-=======
-              "duration": 1918517499
+              "duration": 1479174499
             }
           },
           {
@@ -329,23 +230,12 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 501900
->>>>>>> transferencias
+              "duration": 374000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-<<<<<<< HEAD
-            "line": 16,
-            "name": "que esteja na página de login",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 602225499
-=======
             "line": 17,
             "name": "que esteja na página de login",
             "match": {
@@ -353,8 +243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 567488799
->>>>>>> transferencias
+              "duration": 586633299
             }
           },
           {
@@ -377,16 +266,6 @@
               }
             ],
             "keyword": "When ",
-<<<<<<< HEAD
-            "line": 17,
-            "name": "realizo o login com as seguintes credenciais",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 655316300
-=======
             "line": 18,
             "name": "realizo o login com as seguintes credenciais",
             "match": {
@@ -394,56 +273,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 779705800
->>>>>>> transferencias
+              "duration": 772277599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-<<<<<<< HEAD
-            "line": 20,
-            "name": "devo visualizar a mensagem Erro no login. Tente novamente",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:47"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 97768699
-=======
             "line": 21,
             "name": "devo visualizar a mensagem Erro no login. Tente novamente",
             "match": {
-              "location": "features\\step_definitions\\loginStep.js:39"
+              "location": "features\\step_definitions\\loginStep.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 115064799
->>>>>>> transferencias
+              "duration": 133328400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-<<<<<<< HEAD
-            "line": 21,
-            "name": "não devo ser redirecionado para a página inicial",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 11264699
-=======
             "line": 22,
             "name": "não devo ser redirecionado para a página inicial",
             "match": {
-              "location": "features\\step_definitions\\loginStep.js:54"
+              "location": "features\\step_definitions\\loginStep.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 77176399
->>>>>>> transferencias
+              "duration": 76776100
             }
           },
           {
@@ -451,22 +307,116 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 615920399
+              "duration": 332740699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 717999
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       },
       {
         "description": "",
         "id": "login;login-invalido",
         "keyword": "Scenario Outline",
-        "line": 25,
+        "line": 26,
         "name": "Login invalido",
-=======
-              "duration": 322883000
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1577542500
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 260999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "que esteja na página de login",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 498830600
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "usuario",
+                      "sara.silva"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "senha",
+                      "234513"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 18,
+            "name": "realizo o login com as seguintes credenciais",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 872479399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "devo visualizar a mensagem Erro no login. Tente novamente",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114518199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "não devo ser redirecionado para a página inicial",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196498700
             }
           },
           {
@@ -474,7 +424,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 313499
+              "duration": 415192499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 197900
             }
           }
         ],
@@ -508,17 +466,13 @@
         "keyword": "Scenario Outline",
         "line": 13,
         "name": "Transferencia de valores válidos",
->>>>>>> transferencias
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 1514991099
-=======
-              "duration": 1596350400
+              "duration": 1494002700
             }
           },
           {
@@ -526,23 +480,12 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 437100
->>>>>>> transferencias
+              "duration": 233799
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-<<<<<<< HEAD
-            "line": 16,
-            "name": "que esteja na página de login",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 736620600
-=======
             "line": 5,
             "name": "que estou logado no sistema",
             "match": {
@@ -550,8 +493,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1316210900
->>>>>>> transferencias
+              "duration": 1302964099
             }
           },
           {
@@ -560,55 +502,22 @@
                 "rows": [
                   {
                     "cells": [
-<<<<<<< HEAD
-                      "usuario",
-                      "sara.silva"
-=======
                       "id_conta_origem",
                       "id_conta_destino",
                       "valor"
->>>>>>> transferencias
                     ]
                   },
                   {
                     "cells": [
-<<<<<<< HEAD
-                      "senha",
-                      "234513"
-=======
                       "3",
                       "1",
                       "100.00"
->>>>>>> transferencias
                     ]
                   }
                 ]
               }
             ],
             "keyword": "When ",
-<<<<<<< HEAD
-            "line": 17,
-            "name": "realizo o login com as seguintes credenciais",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 554916799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 20,
-            "name": "devo visualizar a mensagem Erro no login. Tente novamente",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:47"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 79806299
-=======
             "line": 6,
             "name": "transferir o valor da conta origem para a conta destino",
             "match": {
@@ -616,23 +525,12 @@
             },
             "result": {
               "status": "passed",
-              "duration": 537133000
->>>>>>> transferencias
+              "duration": 552244500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-<<<<<<< HEAD
-            "line": 21,
-            "name": "não devo ser redirecionado para a página inicial",
-            "match": {
-              "location": "features\\step_definitions\\loginStep.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9924899
-=======
             "line": 9,
             "name": "a transferência deve ser realizada com sucesso",
             "match": {
@@ -640,8 +538,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 122749000
->>>>>>> transferencias
+              "duration": 108265100
             }
           },
           {
@@ -649,23 +546,118 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD
-              "duration": 323513399
+              "duration": 333908500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 187899
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@transferencia",
+            "line": 1
+          }
+        ],
         "type": "scenario"
-      }
-    ],
-    "id": "login",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Login",
-    "tags": [],
-    "uri": "features\\login.feature"
-=======
-              "duration": 367423699
+      },
+      {
+        "description": "",
+        "id": "transferencia;transferencia-com-saldo-insuficiente",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Transferencia com saldo insuficiente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1500569799
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 202300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "que estou logado no sistema",
+            "match": {
+              "location": "features\\step_definitions\\transferenciaStep.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1250870100
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id_conta_origem",
+                      "id_conta_destino",
+                      "valor"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3",
+                      "1",
+                      "500001"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 17,
+            "name": "transferir o valor da conta origem para a conta destino",
+            "match": {
+              "location": "features\\step_definitions\\transferenciaStep.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526939799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "devo visualizar a mensagem 'Saldo insuficiente para realizar a transferência.'",
+            "match": {
+              "location": "features\\step_definitions\\transferenciaStep.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302776799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "a transferência não deve ser realizada",
+            "match": {
+              "location": "features\\step_definitions\\transferenciaStep.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48631599
             }
           },
           {
@@ -673,7 +665,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 233300
+              "duration": 346235399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228399
             }
           }
         ],
@@ -697,6 +697,5 @@
       }
     ],
     "uri": "features\\transferencia.feature"
->>>>>>> transferencias
   }
 ]
