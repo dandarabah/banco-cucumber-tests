@@ -1,6 +1,7 @@
 const report = require('multiple-cucumber-html-reporter');
 
 report.generate({
+<<<<<<< HEAD
     jsonDir: 'reports',
     reportPath: 'reports/html',
 
@@ -30,3 +31,22 @@ report.generate({
         ]
     }
 });
+=======
+  jsonDir: './reports',
+  reportPath: './reports/html',
+  reportName: 'Relatório de Testes',
+  pageTitle: 'Relatório Cucumber',
+  displayDuration: true,
+  metadata: {
+    browser: {
+      name: 'chrome',
+      version: 'latest'
+    },
+    device: 'Windows',
+    platform: {
+      name: 'Windows',
+      version: '10'
+    }
+  }
+});
+>>>>>>> transferencias

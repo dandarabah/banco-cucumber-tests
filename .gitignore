@@ -1,0 +1,7 @@
+# Arquivos e pastas a serem ignorados pelo Git
+node_modules/
+
+# Relatórios do Cucumber
+report.html
+cucumber-html-reports/
+
