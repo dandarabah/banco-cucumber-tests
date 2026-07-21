@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "test": "cucumber-js",
+  "test:json": "cucumber-js --format json:reports/cucumber-report.json",
+  "test:report": "npm run test:json && node report.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^11.0.1",
+    "multiple-cucumber-html-reporter": "^3.9.0",
     "selenium-webdriver": "^4.46.0"
   }
 }

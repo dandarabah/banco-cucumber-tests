@@ -1,0 +1,371 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-com-sucesso",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login com sucesso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1240647399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que esteja na página de login",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 941430700
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "usuario",
+                      "Lia.Rosa"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "senha",
+                      "425133"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "realizo o login com as seguintes credenciais",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 630894299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "devo ser redirecionado para a página inicial",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3166344799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 648738899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;login-com-sucesso",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Login com sucesso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1953699200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que esteja na página de login",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 746680900
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "usuario",
+                      "junior.lima"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "senha",
+                      "112233"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "realizo o login com as seguintes credenciais",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 618628299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "devo ser redirecionado para a página inicial",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3161220899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 474445700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;login-invalido",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Login invalido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1295247600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "que esteja na página de login",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 602225499
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "usuario",
+                      "cloe.ferreira"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "senha",
+                      "812345"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 17,
+            "name": "realizo o login com as seguintes credenciais",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 655316300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "devo visualizar a mensagem Erro no login. Tente novamente",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97768699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "não devo ser redirecionado para a página inicial",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11264699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 615920399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;login-invalido",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Login invalido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1514991099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "que esteja na página de login",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 736620600
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "usuario",
+                      "sara.silva"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "senha",
+                      "234513"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 17,
+            "name": "realizo o login com as seguintes credenciais",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554916799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "devo visualizar a mensagem Erro no login. Tente novamente",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79806299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "não devo ser redirecionado para a página inicial",
+            "match": {
+              "location": "features\\step_definitions\\loginStep.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9924899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 323513399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
